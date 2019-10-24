@@ -1,4 +1,4 @@
-﻿package com.zoro.qr_code.factory;
+package com.zoro.qr_code.factory;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
 
+
 /**
  * @program: Java-Package
  * @description: Factory class that generates QR code!
@@ -20,8 +21,8 @@ public class QRCodeFactory {
 
     private static final int WIDTH = 350;
     private static final int HEIGHT = 350;
-    private static final String QR_CODE_STORAGE_PATH = "/qr-code";
-    private static QRCodeWriter factory = new QRCodeWriter();
+    private static final String QR_CODE_STORAGE_PATH = System.getProperty("user.dir") + "/qr-code" + "/qr.png";
+     private static QRCodeWriter factory = new QRCodeWriter();
 
     public static void generateQRCodeImage(String content) {
 
