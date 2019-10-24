@@ -1,4 +1,4 @@
-import com.zoro.qr_code.factory.QRCodeFactory;
+import com.zoro.love.qr_code.factory.QRCodeFactory;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -25,7 +25,7 @@ public class QRCodeTest {
 
     @Test
     public void generrateQRCode(){
-        QRCodeFactory.generateQRCodeImage("https://www.baidu.com");
+        QRCodeFactory.generateQRCodeImage("https://www.hao123.com");
     }
 
 }

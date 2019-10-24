@@ -1,4 +1,4 @@
-package com.zoro.qr_code.factory;
+package com.zoro.love.qr_code.factory;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;

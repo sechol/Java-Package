@@ -11,11 +11,10 @@
     <artifactId>java-apps</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>QR-code</module>
+        <module>love-confession</module>
     </modules>
 
     <properties>
-        <zxing.version>3.3.2</zxing.version>
         <mysql.vsersion>8.0.18</mysql.vsersion>
         <springboot.version>2.2.0.RELEASE</springboot.version>
     </properties>
@@ -41,13 +40,10 @@
             <version>${springboot.version}</version>
         </dependency>
 
-        <!-- 热部署 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
             <version>${springboot.version}</version>
-            <optional>true</optional>
-            <scope>true</scope>
         </dependency>
 
         <!--spring模板引擎-->
