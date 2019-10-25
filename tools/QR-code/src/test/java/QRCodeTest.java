@@ -25,7 +25,7 @@ public class QRCodeTest {
 
     @Test
     public void generrateQRCode(){
-        QRCodeFactory.generateQRCodeImage("https://www.hao123.com");
+        QRCodeFactory.generateQRCodeImage("https://10.86.17.36");
     }
 
 }

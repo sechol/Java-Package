@@ -1,3 +1,7 @@
 commons/commons-model/target/
 commons/commons-util/target/
 java-apps/QR-code/target/
+java-apps/love-confession/target/
+tools/QR-code/target/classes/META-INF/QR-code.kotlin_module
+tools/QR-code/target/maven-archiver/pom.properties
+tools/QR-code/target/
