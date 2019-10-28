@@ -11,15 +11,17 @@
     <modules>
         <module>commons</module>
         <module>design-patterns</module>
-        <module>java-apps</module>
+        <module>web-apps</module>
         <module>muilt-thread</module>
         <module>tools</module>
+        <module>spring-source-analyze</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
         <junit.version>4.12</junit.version>
         <log4j.version>1.2.17</log4j.version>
+        <mysql.vsersion>8.0.18</mysql.vsersion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>

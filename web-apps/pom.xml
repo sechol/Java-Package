@@ -15,7 +15,6 @@
     </modules>
 
     <properties>
-        <mysql.vsersion>8.0.18</mysql.vsersion>
         <springboot.version>2.2.0.RELEASE</springboot.version>
     </properties>
 
