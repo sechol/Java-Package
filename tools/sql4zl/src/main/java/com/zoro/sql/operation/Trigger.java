@@ -9,5 +9,4 @@ package com.zoro.sql.operation;
 public class Trigger {
 
 
-
 }

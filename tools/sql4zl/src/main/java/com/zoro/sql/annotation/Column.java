@@ -13,10 +13,10 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Column {
 
-    String name();
+    String name() default "";
     int length() default 10;
-    ColumnType type();
-    String info();
+    ColumnType type() default ColumnType.VARCHAR;
+    String info() default "";
     AllowNull allowNull() default AllowNull.NULL;
 
 }
